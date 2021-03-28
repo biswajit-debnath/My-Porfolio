@@ -1,0 +1,1050 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+  <!--<![endif]-->
+  <head>
+    <!--- basic page needs
+   ================================================== -->
+    <meta charset="utf-8" />
+    <title>Biswajit Debnath | Porfolio</title>
+    <meta name="theme-color" content="#2F3BA2" />
+
+    <!-- mobile specific metas
+   ================================================== -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+
+    <!-- CSS
+   ================================================== -->
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/vendor.css" />
+    <link rel="manifest" href="manifest.json" />
+
+    <!-- script
+   ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- favicons
+	================================================== -->
+    <link rel="icon" type="image/png" href="favicon.png" />
+
+    <!-- Google analytics -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-115956668-3"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-115956668-3");
+    </script>
+
+    <script>
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("service-worker.js");
+      }
+
+      document.querySelector("#show").addEventListener("click", () => {
+        const iconUrl = document.querySelector("select").selectedOptions[0]
+          .value;
+        let imgElement = document.createElement("img");
+        imgElement.src = iconUrl;
+        document.querySelector("#container").appendChild(imgElement);
+      });
+    </script>
+  </head>
+
+  <body id="top">
+    <!-- header
+   ================================================== -->
+    <header>
+      <div class="row">
+        <div class="top-bar">
+          <a class="menu-toggle" href="#"><span>Menu</span></a>
+
+          <nav id="main-nav-wrap">
+            <ul class="main-navigation">
+              <li class="current">
+                <a class="smoothscroll" href="#intro" title="">Home</a>
+              </li>
+              <li><a class="smoothscroll" href="#about" title="">About</a></li>
+              <li>
+                <a class="smoothscroll" href="#portfolio" title="">Portfolio</a>
+              </li>
+              <li>
+                <a class="smoothscroll" href="#services" title="">Services</a>
+              </li>
+              <li>
+                <a class="smoothscroll" href="#contact" title="">Contact</a>
+              </li>
+              </ul>
+          </nav>
+        </div>
+        <!-- /top-bar -->
+      </div>
+      <!-- /row -->
+    </header>
+    <!-- /header -->
+
+    <!-- intro section
+   ================================================== -->
+    <section id="intro">
+      <div class="intro-overlay"></div>
+
+      <div class="intro-content">
+        <div class="row">
+          <div class="col-twelve">
+            <h5>Hello, World.</h5>
+            <h1>I'm Biswajit Debnath.</h1>
+
+            <p class="intro-position">
+              <span>Software Developer</span>
+              <span>Full Stack Web Developer</span>
+              <span>Machine Learning Enthusiastic</span>
+            </p>
+
+            <div class="row button-section">
+              <div class="col-twelve">
+                <a class="button stroke smoothscroll" href="#about" title=""
+                  >More About Me</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /intro-content -->
+
+      <ul class="intro-social">
+        <!--   <li><a href="#"><i class="fa fa-facebook"></i></a></li> -->
+        <!--      <li><a href="#"><i class="fa fa-behance"></i></a></li> -->
+        <!-- <li><a href="https://twitter.com/crazy4sunshine"><i class="fa fa-twitter"></i></a></li> -->
+        <li>
+          <a href="https://www.linkedin.com/in/biswajit-debnath"
+            ><i class="fa fa-linkedin"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://github.com/biswajit-debnath"
+            ><i class="fa fa-github"></i
+          ></a>
+        </li>
+        <!-- <li><a href="#"><i class="fa fa-dribbble"></i></a></li> -->
+        <!-- <li><a href="#"><i class="fa fa-instagram"></i></a></li> -->
+      </ul>
+      <!-- /intro-social -->
+    </section>
+    <!-- /intro -->
+
+    <!-- about section
+   ================================================== -->
+    <section id="about">
+      <div class="row section-intro" style="margin-bottom: 15rem;">
+        <div class="col-twelve">
+          <h5>About</h5>
+          <h1>Let me introduce myself.</h1>
+
+          <div class="intro-info">
+            <img src="images/dp2.jpg" alt="Profile Picture" />
+
+            <p class="lead">
+              I am a Full-Stack Developer by profession. When I am not developing Web app
+              you will find me creating machine learning projects or creating small games,
+              learning a new framework, learning new algorithms, watching youtube, listening 
+              to music or playing my guiter etc.I like to work on new things and learn things 
+              very quickly.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- /section-intro -->
+
+      <div class="row about-content">
+        <div class="col-six tab-full">
+          <h3>Profile</h3>
+          <p>Full Stack Developer</p>
+
+          <ul class="info-list">
+            <li>
+              <strong>Fullname:</strong>
+              <span>Biswajit Debnath</span>
+            </li>
+            <!-- 	<li>
+   					<strong>Birth Date:</strong>
+   					<span>September 28, 1987</span>
+   				</li> -->
+            <li>
+              <strong>Job:</strong>
+              <span>Full Stack Developer, Freelancer</span>
+            </li>
+            <li>
+              <strong>Github:</strong>
+              <span>https://github.com/biswajit-debnath</span>
+            </li>
+            <li>
+              <strong>Email:</strong>
+              <span>biswajitdebnath405@gmail.com</span>
+            </li>
+          </ul>
+          <!-- /info-list -->
+        </div>
+
+        <div class="col-six tab-full">
+          <h3>Skills</h3>
+          <p>Following are the skills that I use fairly often</p>
+
+          <ul class="skill-bars">
+            <li>
+              <div class="progress percent90"><span>90%</span></div>
+              <strong>HTML5</strong>
+            </li>
+            <li>
+              <div class="progress percent85"><span>85%</span></div>
+              <strong>CSS3</strong>
+            </li>
+            <li>
+              <div class="progress percent95"><span>95%</span></div>
+              <strong>JavaScript</strong>
+            </li>
+            <li>
+              <div class="progress percent80"><span>80%</span></div>
+              <strong>JQuery</strong>
+            </li>
+            <li>
+              <div class="progress percent70"><span>70%</span></div>
+              <strong>React</strong>
+            </li>
+            <li>
+              <div class="progress percent95"><span>90%</span></div>
+              <strong>Python</strong>
+            </li>
+            <li>
+              <div class="progress percent95"><span>95%</span></div>
+              <strong>Node Js</strong>
+            </li>
+            <li>
+              <div class="progress percent95"><span>90%</span></div>
+              <strong>Express</strong>
+            </li>
+            <li>
+              <div class="progress percent80"><span>80%</span></div>
+              <strong>REST API</strong>
+            </li>
+            <li>
+              <div class="progress percent90"><span>90%</span></div>
+              <strong>Ajax</strong>
+            </li>
+            <li>
+              <div class="progress percent90"><span>90%</span></div>
+              <strong>Json</strong>
+            </li>
+            <li>
+              <div class="progress percent95"><span>90%</span></div>
+              <strong>Test Driven Development</strong>
+            </li>
+            <li>
+              <div class="progress percent95"><span>60%</span></div>
+              <strong>Cloud Technologies</strong>
+            </li>
+            <li>
+              <div class="progress percent95"><span>70%</span></div>
+              <strong>Server Automation</strong>
+            </li>
+            <li>
+              <div class="progress percent95"><span>70%</span></div>
+              <strong>Linux</strong>
+            </li>
+            <li>
+              <div class="progress percent95"><span>50%</span></div>
+              <strong>Digital Ocean</strong>
+            </li>
+            <li>
+              <div class="progress percent95"><span>40%</span></div>
+              <strong>AWS</strong>
+            </li>
+            <li>
+              <div class="progress percent95"><span>95%</span></div>
+              <strong>Github Pages</strong>
+            </li>
+            <li>
+              <div class="progress percent95"><span>60%</span></div>
+              <strong>Shell Scription</strong>
+            </li>
+            <li>
+              <div class="progress percent90"><span>90%</span></div>
+              <strong>Git</strong>
+            </li>
+            <li>
+              <div class="progress percent95"><span>95%</span></div>
+              <strong>SSH</strong>
+            </li>
+            <li>
+              <div class="progress percent95"><span>95%</span></div>
+              <strong>C/C++</strong>
+            </li>
+            <li>
+              <div class="progress percent75"><span>75%</span></div>
+              <strong>tensorflow</strong>
+            </li>
+          </ul>
+          <!-- /skill-bars -->
+        </div>
+      </div>
+
+      <div class="row button-section">
+        <div class="col-twelve">
+          <a href="#contact" title="Hire me" class="button stroke smoothscroll"
+            >Get In Touch</a
+          >
+          <a class="button stroke smoothscroll" href="#portfolio" title=""
+            >More About Me</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- /process-->
+
+    <!-- Portfolio Section
+   ================================================== -->
+    <section id="portfolio">
+      <div class="row section-intro">
+        <div class="col-twelve">
+          <h5>Portfolio</h5>
+          <h1>Check Out Some of My Works.</h1>
+
+          <p class="lead">Some of my recent works</p>
+        </div>
+      </div>
+      <!-- /section-intro-->
+
+      <div class="row portfolio-content">
+        <div class="col-twelve">
+          <!-- portfolio-wrapper -->
+          <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+            <div class="bgrid folio-item">
+              <div class="item-wrap">
+                <img
+                  src="images/portfolio/Chat App.png"
+                  alt="Chat Application"
+                />
+                <a href="#modal-01" class="overlay">
+                  <div class="folio-item-table">
+                    <div class="folio-item-cell">
+                      <h3 class="folio-title">Chat Application</h3>
+                      <span class="folio-types">
+                        Web Application
+                      </span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <!-- /folio-item -->
+
+            <div class="bgrid folio-item">
+              <div class="item-wrap">
+                <img
+                  src="images/portfolio/Web App Deshboard.png"
+                  alt="Deshboard"
+                />
+                <a href="#modal-02" class="overlay">
+                  <div class="folio-item-table">
+                    <div class="folio-item-cell">
+                      <h3 class="folio-title">Web Application</h3>
+                      <span class="folio-types">
+                        Web App Deshboard
+                      </span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <!-- /folio-item -->
+
+            <div class="bgrid folio-item">
+              <div class="item-wrap">
+                <img
+                  src="images/portfolio/Phrase guessing game.png"
+                  alt="Game"
+                />
+                <a href="#modal-03" class="overlay">
+                  <div class="folio-item-table">
+                    <div class="folio-item-cell">
+                      <h3 class="folio-title">Game</h3>
+                      <span class="folio-types">
+                        Phrase Guessing Game
+                      </span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <!-- /folio-item -->
+
+            <div class="bgrid folio-item">
+              <div class="item-wrap">
+                <img src="images/portfolio/Simple gallery.png" alt="Gallery" />
+                <a href="#modal-04" class="overlay">
+                  <div class="folio-item-table">
+                    <div class="folio-item-cell">
+                      <h3 class="folio-title">Image Gallery</h3>
+                      <span class="folio-types">
+                        Web Application
+                      </span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <!-- /folio-item -->
+
+            <div class="bgrid folio-item">
+              <div class="item-wrap">
+                <img src="images/portfolio/CNN.png" alt="Machine Learning" />
+                <a href="#modal-05" class="overlay">
+                  <div class="folio-item-table">
+                    <div class="folio-item-cell">
+                      <h3 class="folio-title">Machine Learning</h3>
+                      <span class="folio-types">
+                        Animal Classifier using CNN and tersorflow
+                      </span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <!-- /folio-item -->
+
+            <div class="bgrid folio-item">
+              <div class="item-wrap">
+                <img src="images/portfolio/Newsletter.png" alt="Form" />
+                <a href="#modal-06" class="overlay">
+                  <div class="folio-item-table">
+                    <div class="folio-item-cell">
+                      <h3 class="folio-title">Registration form</h3>
+                      <span class="folio-types">
+                        Newsletter registration form
+                      </span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <!-- /folio-item -->
+
+            <!-- modal popups - begin
+	            ============================================================= -->
+            <div id="modal-01" class="popup-modal slider mfp-hide">
+              <div class="media">
+                <img
+                  src="images/portfolio/modals/Chat App.png"
+                  alt="Chat App"
+                />
+              </div>
+
+              <div class="description-box">
+                <h4>Chat Application</h4>
+                <p>
+                  A chat application from scratch based on nodejs and vanilla
+                  javascript
+                </p>
+
+                <div class="categories">Web Development</div>
+              </div>
+
+              <div class="link-box">
+                <a href="http://chat-app-main.herokuapp.com">Live Project</a>
+                <a href="#" class="popup-modal-dismiss">Close</a>
+              </div>
+            </div>
+            <!-- /modal-01 -->
+
+            <div id="modal-02" class="popup-modal slider mfp-hide">
+              <div class="media">
+                <img
+                  src="images/portfolio/modals/Web App Deshboard.png"
+                  alt="Web App"
+                />
+              </div>
+
+              <div class="description-box">
+                <h4>Deshboard Page</h4>
+                <p>
+                  A web application dashboard with various charts integrated
+                  along with that it has autocomplete feature and localstorage
+                  to store settings data locally
+                </p>
+
+                <div class="categories">Web Application</div>
+              </div>
+
+              <div class="link-box">
+                <a
+                  href="https://biswajit-debnath.github.io/Web_App_Deshboard-Project-7"
+                  >Live Site</a
+                >
+                <a href="#" class="popup-modal-dismiss">Close</a>
+              </div>
+            </div>
+            <!-- /modal-02 -->
+
+            <div id="modal-03" class="popup-modal slider mfp-hide">
+              <div class="media">
+                <img src="images/portfolio/modals/Phrase guessing game.png"
+                alt="Game" />
+              </div>
+
+              <div class="description-box">
+                <h4>Game</h4>
+                <p>
+                  A simple popular phrase guessing game made with vanilla
+                  javascript :)
+                </p>
+
+                <div class="categories">Web Based Game</div>
+              </div>
+
+              <div class="link-box">
+                <a
+                  href="https://biswajit-debnath.github.io/Game_Show_app-Project-6"
+                  >Live Site</a
+                >
+                <a href="#" class="popup-modal-dismiss">Close</a>
+              </div>
+            </div>
+            <!-- /modal-03 -->
+
+            <div id="modal-04" class="popup-modal slider mfp-hide">
+              <div class="media">
+                <img src="images/portfolio/modals/Simple gallery.png" alt="" />
+              </div>
+
+              <div class="description-box">
+                <h4>Gallery</h4>
+                <p>
+                  A beautiful image gallery with search functionality.
+                </p>
+
+                <div class="categories">Web App</div>
+              </div>
+
+              <div class="link-box">
+                <a href="https://biswajit-debnath.github.io/Image-Library_project-5"
+                  >Live Site</a
+                >
+                <a href="#" class="popup-modal-dismiss">Close</a>
+              </div>
+            </div>
+            <!-- /modal-04 -->
+
+            <div id="modal-05" class="popup-modal slider mfp-hide">
+              <div class="media">
+                <img
+                  src="images/portfolio/modals/CNN.png"
+                  alt="CNN"
+                />
+              </div>
+
+              <div class="description-box">
+                <h4>Machine Learning</h4>
+                <p>
+                  An animal classifier with convolution neural network using tensorflow.
+                </p>
+
+                <div class="categories">Web Application</div>
+              </div>
+
+              <div class="link-box">
+                <a
+                  href="https://https://github.com/biswajit-debnath/Image-Classification-using-CNN"
+                  >Github Code Repository</a
+                >
+                <a href="#" class="popup-modal-dismiss">Close</a>
+              </div>
+            </div>
+            <!-- /modal-05 -->
+
+            <div id="modal-06" class="popup-modal slider mfp-hide">
+              <div class="media">
+                <img src="images/portfolio/modals/Newsletter.png" alt="" />
+              </div>
+
+              <div class="description-box">
+                <h4>Registration Form</h4>
+                <p>
+                  A simple newsletter registration form. 
+                </p>
+
+                <div class="categories">Web Application</div>
+              </div>
+
+              <div class="link-box">
+                <a
+                  href="https://biswajit-debnath.github.io/Registration-Form_project-3"
+                  >Live Site</a
+                >
+                <a href="#" class="popup-modal-dismiss">Close</a>
+              </div>
+            </div>
+            <!-- /modal-06 -->
+
+            <!-- modal popups - end
+	            ============================================================= -->
+          </div>
+          <!-- /portfolio-wrapper -->
+        </div>
+        <!-- /twelve -->
+      </div>
+      <!-- /portfolio-content -->
+    </section>
+    <!-- /portfolio -->
+
+    <section id="resume" class="grey-section">
+      <div class="row section-intro">
+        <div class="col-twelve">
+          <h5>Projects</h5>
+          <h1>Some of my others projects</h1>
+
+          <!-- <p class="lead">Personal Projects</p> -->
+        </div>
+      </div>
+      <!-- /section-intro-->
+
+      
+      <!-- /resume-timeline -->
+
+      <div class="row resume-timeline">
+        <div class="col-twelve resume-header">
+          <h2>Personal Projects</h2>
+        </div>
+        <!-- /resume-header -->
+
+        <div class="col-twelve">
+          <div class="timeline-wrap">
+            <div class="timeline-block">
+              <div class="timeline-ico">
+                <i class="fa fa-code"></i>
+              </div>
+
+              <div class="timeline-header">
+                <h3>Web Style Guide</h3>
+                <!-- <p>2018 - Present</p> -->
+              </div>
+
+              <div class="timeline-content">
+                <h4>
+                  <a
+                    href="https://github.com/biswajit-debnath/Web_style_guide_project-4"
+                    >Github Repo</a
+                  >
+                </h4>
+                <p>
+                  An style guide templates from styling web application.
+                </p>
+              </div>
+            </div>
+            <!-- /timeline-block -->
+
+            <div class="timeline-block">
+              <div class="timeline-ico">
+                <i class="fa fa-code"></i>
+              </div>
+
+              <div class="timeline-header">
+                <h3>Neural Network </h3>
+                <!-- <p>2018 - Present</p> -->
+              </div>
+
+              <div class="timeline-content">
+                <h4>
+                  <a href="https://github.com/biswajit-debnath/Neural-Network-solving-XOR-">Github Repo</a>
+                </h4>
+                <p>
+                  An artificial neural network from scratch to solve XOR problem in C++
+                </p>
+              </div>
+            </div>
+            <!-- /timeline-block -->
+
+            <div class="timeline-block">
+              <div class="timeline-ico">
+                <i class="fa fa-code"></i>
+              </div>
+
+              <div class="timeline-header">
+                <h3>Digit Classifier</h3>
+                <!-- <p>2018 - Present</p> -->
+              </div>
+
+              <div class="timeline-content">
+                <h4>
+                  <a href="https://github.com/biswajit-debnath/Handwritten-digit-classification-using-CNN"
+                    >Github Repo</a
+                  >
+                </h4>
+                <p>Handwritten digit classifier using CNN in python on mnist dataset.</p>
+              </div>
+            </div>
+            <!-- /timeline-block -->
+              
+            <div class="timeline-block">
+              <div class="timeline-ico">
+                <i class="fa fa-code"></i>
+              </div>
+
+              <div class="timeline-header">
+                <h3>JavaScript based Typing Speed Test App</h3>
+                <!-- <p>2018 - Present</p> -->
+              </div>
+
+              <div class="timeline-content">
+                <!-- <h4><a href="https://github.com/Ahmad-Waliullah-Khan/salary-predictor-using-machine-learning">Github Repo</a></h4> -->
+                <p>A Typing Test App for testing typing speed of a person.</p>
+              </div>
+            </div>
+            <!-- /timeline-block -->
+
+            <div class="timeline-block">
+              <div class="timeline-ico">
+                <i class="fa fa-code"></i>
+              </div>
+
+              <div class="timeline-header">
+                <h3>Bouncing ball game</h3>
+                <!-- <p>2018 - Present</p> -->
+              </div>
+
+              <div class="timeline-content">
+                <!-- <h4><a href="https://github.com/Ahmad-Waliullah-Khan/salary-predictor-using-machine-learning">Github Repo</a></h4> -->
+                <p>A bouncing ball using java in processing.</p>
+              </div>
+            </div>
+            <!-- /timeline-block -->
+
+            <div class="timeline-block">
+              <div class="timeline-ico">
+                <i class="fa fa-code"></i>
+              </div>
+
+              <div class="timeline-header">
+                <h3>Snake Game</h3>
+                <!-- <p>2018 - Present</p> -->
+              </div>
+
+              <div class="timeline-content">
+                <!-- <h4><a href="https://github.com/Ahmad-Waliullah-Khan/salary-predictor-using-machine-learning">Github Repo</a></h4> -->
+                <p>A simple snake game in C++.</p>
+              </div>
+            </div>
+            <!-- /timeline-block -->
+         <!-- /timeline-wrap -->
+        </div>
+        <!-- /col-twelve -->
+      </div>
+      <!-- /resume-timeline -->
+    </section>
+    <!-- /features -->
+
+    <!-- services Section
+   ================================================== -->
+    <section id="services">
+      <div class="overlay"></div>
+
+      <div class="row section-intro">
+        <div class="col-twelve">
+          <h5>Services</h5>
+          <h1>What Can I Do For You?</h1>
+
+          <p class="lead">
+            Feel free to contact me if you need any of the following solutions
+          </p>
+        </div>
+      </div>
+      <!-- /section-intro -->
+
+      <div class="row services-content">
+        <div id="owl-slider" class="owl-carousel services-list">
+          <div class="service">
+            <span class="icon"><i class="icon-window"></i></span>
+
+            <div class="service-content">
+              <h3>Web Development</h3>
+
+              <p class="desc">
+                Full-Stack Web Applications using industry standard coding,
+                latest technology and tools.
+              </p>
+            </div>
+          </div>
+          <!-- /service -->
+
+          <div class="service">
+            <span class="icon"><i class="icon-earth"></i></span>
+
+            <div class="service-content">
+              <h3>Web Design</h3>
+
+              <p class="desc">
+                Static Responsive Web Design using latest technolgy. Multi
+                browser and platform compatible and mobile friendly site.
+              </p>
+            </div>
+          </div>
+          <!-- /service -->
+
+          <div class="service">
+            <span class="icon"><i class="icon-paint-brush"></i></span>
+
+            <div class="service-content">
+              <h3>Custom Cloud Based Software Development</h3>
+
+              <p class="desc">
+                Custom Software solution for your business needs. Centralized,
+                cloud based custom software solution using best coding
+                standards.
+              </p>
+            </div>
+          </div>
+          <!-- /service -->
+        </div>
+        <!-- /services-list -->
+      </div>
+      <!-- /services-content -->
+    </section>
+    <!-- /services -->
+
+    <!-- stats Section
+   ================================================== -->
+    <section id="stats" class="count-up">
+      <div class="row">
+        <div class="col-twelve">
+          <div
+            class="block-1-6 block-s-1-3 block-tab-1-2 block-mob-full stats-list"
+          >
+            <div class="bgrid stat">
+              <div class="icon-part">
+                <i class="icon-pencil-ruler"></i>
+              </div>
+
+              <h3 class="stat-count">
+                20
+              </h3>
+
+              <h5 class="stat-title">
+                Projects Completed
+              </h5>
+            </div>
+            <!-- /stat -->
+
+            <!-- <div class="bgrid stat"> -->
+
+            <!-- <div class="icon-part">
+							<i class="icon-users"></i>
+						</div>
+
+						<h3 class="stat-count">
+							900
+						</h3>
+
+						<h5 class="stat-title">
+							Happy Clients
+						</h5> -->
+
+            <!-- </div> -->
+            <!-- /stat -->
+
+            <!-- <div class="bgrid stat"> -->
+
+            <!-- <div class="icon-part">
+							<i class="icon-badge"></i>
+						</div>
+
+						<h3 class="stat-count">
+							200
+						</h3>
+
+						<h5 class="stat-title">
+							Awards Received
+						</h5> -->
+
+            <!-- </div> -->
+            <!-- /stat -->
+
+            <div class="bgrid stat">
+              <div class="icon-part">
+                <i class="icon-light-bulb"></i>
+              </div>
+
+              <h3 class="stat-count">
+                99
+              </h3>
+
+              <h5 class="stat-title">
+                Crazy Ideas
+              </h5>
+            </div>
+            <!-- /stat -->
+
+            <div class="bgrid stat">
+              <div class="icon-part">
+                <i class="icon-cup"></i>
+              </div>
+
+              <h3 class="stat-count">
+                9990
+              </h3>
+
+              <h5 class="stat-title">
+                Chai Cups
+              </h5>
+            </div>
+            <!-- /stat -->
+
+            <div class="bgrid stat">
+              <div class="icon-part">
+                <i class="icon-clock"></i>
+              </div>
+
+              <h3 class="stat-count">
+                34940
+              </h3>
+
+              <h5 class="stat-title">
+                Hours
+              </h5>
+            </div>
+            <!-- /stat -->
+          </div>
+          <!-- /stats-list -->
+        </div>
+        <!-- /twelve -->
+      </div>
+      <!-- /row -->
+    </section>
+    <!-- /stats -->
+
+    <!-- contact
+   ================================================== -->
+    <section id="contact">
+      <div class="row section-intro">
+        <div class="col-twelve">
+          <h5>Contact</h5>
+          <h1>I'd Love To Hear From You.</h1>
+
+          <p class="lead">
+            Feel free to contact me to discuss anything over a cup of tea.
+          </p>
+        </div>
+      </div>
+      <!-- /section-intro -->
+
+      <div class="row contact-info">
+        <div class="col-four tab-full ">
+          <div class="icon">
+            <i class="icon-mail"></i>
+          </div>
+
+          <h5>Email Me At</h5>
+
+          <p>
+            biswajitdebnath405@gmail.com<br />
+            <!-- info@ahmadwkhan.com			      -->
+          </p>
+        </div>
+
+        <div class="col-four tab-full collapse">
+          <div class="icon">
+            <img src="images/portfolio/Discord.svg" style="max-width:43px">
+          </div>
+
+          <h5>Chat with me</h5>
+
+          <p>
+            Discord: biswajit-debnath#5183<br />
+            <!-- Mobile: (+91) 000 0100<br> -->
+          </p>
+        </div>
+
+        <div class="col-four tab-full">
+          <div class="icon">
+            <i class="icon-pin"></i>
+          </div>
+
+          <h5>Where to find me</h5>
+
+          <p>
+            Hunched over a laptop in some cafe.
+          </p>
+        </div>
+      </div>
+      <!-- /contact-info -->
+    </section>
+    <!-- /contact -->
+
+    <!-- footer
+   ================================================== -->
+
+    <footer>
+      <div class="row">
+        <div class="col-six tab-full pull-right social">
+          <ul class="footer-social">
+            <!-- <li><a href="#"><i class="fa fa-facebook"></i></a></li> -->
+            <!-- <li><a href="#"><i class="fa fa-behance"></i></a></li> -->
+            <!-- <li><a href="#"><i class="fa fa-twitter"></i></a></li> -->
+            <li>
+              <a href="https://www.linkedin.com/in/biswajit-debnath"
+                ><i class="fa fa-linkedin"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://github.com/biswajit-debnath"
+                ><i class="fa fa-github"></i
+              ></a>
+            </li>
+            <!-- <li><a href="https://www.youtube.com/user/crazy4sunshine786"><i class="fa fa-youtube"></i></a></li> -->
+            <!-- <li><a href="#"><i class="fa fa-dribbble"></i></a></li> -->
+            <!-- <li><a href="#"><i class="fa fa-instagram"></i></a></li> -->
+          </ul>
+        </div>
+
+        <div class="col-eight tab-full">
+          <div class="copyright">
+            <span
+              >© Copyright
+              <a href="#">Biswajit Debnath</a> 2020
+            </span>
+            <!-- <span>Designed and Developed by <a href="http://AhmadWKhan.com/">Ahmad W Khan</a></span> 	         	 -->
+          </div>
+        </div>
+
+        <div id="go-top">
+          <a class="smoothscroll" title="Back to Top" href="#top"
+            ><i class="fa fa-long-arrow-up"></i
+          ></a>
+        </div>
+      </div>
+      <!-- /row -->
+    </footer>
+
+    <div id="preloader">
+      <div id="loader"></div>
+    </div>
+
+    <!-- Java Script
+   ================================================== -->
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
