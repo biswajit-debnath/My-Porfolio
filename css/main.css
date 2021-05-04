@@ -1707,9 +1707,9 @@ header .logo a {
   margin-left: -30px;
 }
 .intro-info img {
-  height: 9rem;
-  width: 9rem;
-  border-radius: 50%;
+  height: 12rem;
+  width: 11rem;
+  border-radius: 5px;
   margin: 0.9rem 0 0 0;
   float: left;
 }
