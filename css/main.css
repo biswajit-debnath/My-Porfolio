@@ -46,6 +46,7 @@
  */
 html {
   font-size: 10px;
+  font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -2864,3 +2865,11 @@ footer .copyright span:last-child::after {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+/* Extra */
+
+@media only screen and (max-width: 425px){
+	.skill_tags div {
+    text-align: center !important;
+  }
+}
